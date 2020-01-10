@@ -9,7 +9,7 @@
 	<div class="header">
 		<h2>Registeren</h2>
 	</div>
-	
+	<div class=background>
 	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
@@ -37,5 +37,6 @@
 			Heb je al een account? <a href="login.php">Log in</a>
 		</p>
 	</form>
+  </div>
 </body>
 </html>
